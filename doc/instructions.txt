@@ -1,0 +1,28 @@
+###Authored by Aditya Varadaraj, Akhilrajan Vethirajan, and Saurabh Palande for ENPM 809Y at University of Maryland, USA.###
+
+
+1.After you unzip this package and move it to your catkin workspace 
+
+2.Navigate to script directory of the package
+
+2.Run the install.bash file to install all the packages and dependencies required to run this package
+
+3.Build your catkin workspace, navigate to your catkin workspace and open a terminal and run "catkin build"
+
+4.Source your catkin workspace using "~/{your catkin workspace name}/devel/setup.bash"
+
+5.Open a new terminal and type "roslaunch final_project multiple_robots.launch" to launch the package
+
+6.Open another terminal and run "rosrun final_project final_project_node" to run the executable scripts.
+
+7.Terminate the launch terminal using 'ctrl+c' after the entire process is completed to shutdown Gazebo and Rviz
+
+###------------######------------######------------######------------######------------###
+
+Note: The entire execution will take approximately 8 minutes to complete.
+
+Note: Depending on your system configuration it might take longer to launch*
+
+------------------------------------------------------------------------------------------
+########## Warning: System might start to heat as the package is GPU intensive. ##########
+------------------------------------------------------------------------------------------
